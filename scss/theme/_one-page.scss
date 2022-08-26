@@ -177,12 +177,13 @@
             border-radius: 100%;
             line-height: $base-font-size * 4.5;
             border: 2px solid $color-primary;
-            
+            &:hover
+            {
+                rotate: -45deg;
+                transition: .5s;
+            }
         }
-        .icon-services:hover{
-            rotate: -45deg;
-            transition: .5s;
-        }
+       
 
 
         .counters-box {
